@@ -36,3 +36,5 @@ val endpoints: AVector[ServerEndpoint[Any, Future]] = SwaggerUI(openapiContent, 
 ```
 
 In summary, this folder contains essential components for handling HTTP requests and responses in the Alephium project. The `EndpointSender` class simplifies sending requests to endpoints, while the `ServerOptions` object configures the server options for handling decoding failures. The `SwaggerUI` object provides a set of server endpoints for serving a Swagger UI, allowing users to interact with the API through a web-based interface. These components work together to provide a robust and user-friendly HTTP layer for the Alephium project.
+
+<!-- Auto-update: 2025-10-14T11:51:32.617282 -->
