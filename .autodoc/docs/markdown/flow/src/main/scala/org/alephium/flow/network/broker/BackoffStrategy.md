@@ -35,3 +35,4 @@ def sendRequest(): Unit = {
 3. What is the purpose of the `retry` method in both `DefaultBackoffStrategy` and `ResetBackoffStrategy`?
    
    The `retry` method is the main method of both `DefaultBackoffStrategy` and `ResetBackoffStrategy` classes, which takes a function that performs a network request and returns a boolean indicating whether the request should be retried or not. The method implements a backoff strategy that increases the delay between retries exponentially up to a maximum delay, and returns `true` if the request should be retried or `false` if the maximum number of retries has been reached.
+<!-- Auto-update: 2025-10-16T13:41:41.171552 -->
