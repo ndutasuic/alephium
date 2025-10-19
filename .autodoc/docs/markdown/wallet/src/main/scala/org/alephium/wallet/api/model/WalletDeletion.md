@@ -28,3 +28,4 @@ Overall, this code provides a simple and straightforward way to represent a wall
 
 3. What is the `org.alephium.wallet.api.model` package used for?
 - The `org.alephium.wallet.api.model` package contains the `WalletDeletion` case class and likely other models used in the API of the `alephium` wallet.
+<!-- Auto-update: 2025-10-19T17:31:26.648191 -->
