@@ -29,3 +29,4 @@ map.clear()
 
 3. What is the difference between the `unsafe` and `get` methods?
 - The `unsafe` method returns the value associated with a key in the map, assuming that the key exists and the value is not null. The `get` method returns an `Option` that contains the value associated with a key in the map, or `None` if the key does not exist or the value is null.
+<!-- Auto-update: 2025-10-19T17:54:08.065358 -->
