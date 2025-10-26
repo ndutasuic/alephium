@@ -31,3 +31,4 @@ Overall, the `Collection` object provides a useful utility for safe array access
 
 3. What is the meaning of the `Option.when` method used in the `get` methods?
    - The `Option.when` method returns an `Option` type with a value if the specified condition is true, or `None` if the condition is false. In this case, it is used to check if the index is within the bounds of the array or `ArraySeq`.
+<!-- Auto-update: 2025-10-26T08:50:20.012628 -->
